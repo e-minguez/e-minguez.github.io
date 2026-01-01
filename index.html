@@ -12,6 +12,7 @@
 		<!--[if lte IE 8]><script src="assets/js/html5shiv.js"></script><![endif]-->
 		<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap" rel="stylesheet">
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/dark-mode.css" />
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
@@ -19,6 +20,11 @@
                 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
 	</head>
 	<body>
+
+		<!-- Theme Toggle Button -->
+		<button id="theme-toggle" aria-label="Toggle dark/light mode">
+			<i class="fa-solid fa-moon"></i>
+		</button>
 
 		<!-- Wrapper -->
 			<div id="wrapper">
@@ -66,6 +72,7 @@
 					document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
 				}
 			</script>
+			<script src="assets/js/dark-mode.js"></script>
 
 	</body>
 </html>

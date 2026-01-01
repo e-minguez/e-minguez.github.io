@@ -1,0 +1,33 @@
+/* Dark Mode Styles */
+body.dark-mode {
+    --bg-color: #1a1a2e;
+    --bg-gradient: linear-gradient(135deg, #16213e 0%, #1a1a2e 100%);
+    --card-bg: rgba(22, 33, 62, 0.85);
+    --text-color: #eaeaea;
+    --text-muted: #a0a0a0;
+    --border-color: rgba(255, 255, 255, 0.1);
+}
+
+body.dark-mode input[type="text"],
+body.dark-mode input[type="password"],
+body.dark-mode input[type="email"],
+body.dark-mode select,
+body.dark-mode textarea {
+    background: #0f3460;
+    color: #eaeaea;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+body.dark-mode ul.icons li a {
+    background-color: #0f3460;
+    color: var(--accent-color);
+}
+
+body.dark-mode ul.icons li a:hover {
+    background-color: var(--accent-color);
+    color: #ffffff;
+}
+
+body.dark-mode #main .avatar img {
+    border: 5px solid #16213e;
+}
