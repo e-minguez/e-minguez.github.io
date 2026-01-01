@@ -310,6 +310,11 @@
 				width: 100%;
 				padding: 3em 1.5em;
 			}
+
+			#theme-toggle {
+				top: 0.5em;
+				right: 0.5em;
+			}
 		}
 
 /* Footer */
