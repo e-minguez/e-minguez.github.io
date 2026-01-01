@@ -10,6 +10,7 @@
 
 :root {
 	--bg-color: #fdf6f6;
+    --bg-gradient: linear-gradient(135deg, #fdfbfb 0%, #ebedee 100%);
 	--card-bg: rgba(255, 255, 255, 0.85); /* More opaque for better contrast */
 	--text-color: #4a4a4a;
 	--text-muted: #7a7a7a;
@@ -84,6 +85,8 @@
 	body {
 		height: 100%;
 		background-color: var(--bg-color);
+        background: var(--bg-gradient);
+        background-attachment: fixed;
 	}
 
     /* Removed body:after overlay to fix contrast issues */
@@ -251,8 +254,8 @@
 
 	#main {
 		position: relative;
-		max-width: 100%;
-		min-width: 27em;
+		width: 100%;
+		max-width: 27em;
 		padding: 4em 3em;
 		background: var(--card-bg);
 		border-radius: 24px;
